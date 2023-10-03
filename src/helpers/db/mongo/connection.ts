@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-const DB_URL = process.env.DB_URL || "mongodb://127.0.0.1:27017/3Brain";
+const DB_URL = process.env.DB_URL || "mongodb://127.0.0.1:27017/3B";
 
 export const connectDB = async () => {
   try {
